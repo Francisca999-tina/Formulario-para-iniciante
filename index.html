@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
 
     <!-- Título da página (aparece na aba) -->
     <title>Cadastro</title>
@@ -85,23 +88,66 @@
             </label>
 
             <select id="senioridade" required>
-                <option selected disabled value="">Selecione
+                <option selected disabled value="">Selecione</option>
+
+                <option>Júnior</option>
+                <option>Pleno</option>
+                <option>Sênior</option>
+
             </select>
+        </div>
+
+        <fieldset class="grupo">
+            <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (ckeckbox) e css de class "campo" -->
+            <div id="ckeck">
+                <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
+                <input type="checkbox" id="tecnologias1" name="tecnologias1" value="HTML">
+
+                <label for="tecnologias1">HTML</label>
+
+                <input type="checkbox" id="tecnologias2" name="tecnologias2" value="CSS">
+
+                <label for="tecnologias2">CSS</label>
+
+                <input type="checkbox" id="tecnologias3" name="tecnologias3" value="JavaScript">
+
+                <label for="tecnologias3">JavaScript</label>
+
+                <input type="checkbox" id="tecnologias4" name="tecnologias4" value="PHP">
+
+                <label for="tecnologias4">PHP</label>
+
+                <input type="checkbox" id="tecnologias5" name="tecnologias5" value="C#">
+
+                <label for="tecnologias5">C#</label>
+
+                <input type="checkbox" id="tecnologias6" name="tecnologias6" value="Python">
+
+                <label for="tecnologias6">Python</label>
+
+                <input type="checkbox" id="tecnologias7" name="tecnologias7" value="JAVA">
+
+                <label for="tecnologias7">Java</label>
+
+
+            </div>
+        </fieldset>
+
+        <!--Caixa de texto-->
+        <div class="campo">
+            <br>
+            <label for="experiencia"><strong>Conte um pouco mais de sua experiência:</strong></label>
+
+            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>  
 
         </div>
 
-        
-
-
-            
-
-                
-
-
-        
+        <!--Botão para enviar o formulário-->
+        <button class="botao"type="submit" onsubmit="">Concluído</button>
 
 
     </form>
     
 </body>
+
 </html>

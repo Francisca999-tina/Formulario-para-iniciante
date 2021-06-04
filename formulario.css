@@ -1,0 +1,35 @@
+/*Todos os elementos da pagina */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Elementos com o ID "titulo" */
+
+#titulo {
+    font-family: sans-serif;
+    color: #380b61;
+    margin-left: 7%
+
+}
+
+/* Elementos com o ID "subtitulo"*/
+#subtitulo {
+    font-family: sans-serif;
+    color: #380b61;
+    margin-left: 10%
+}
+
+#check{
+    display:inline-block;
+}
+
+/*Elemento de tag <body> */
+body{
+    background-color: #F0F8FF;
+    
+
+
+
+}
+
