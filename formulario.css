@@ -9,7 +9,7 @@
 #titulo {
     font-family: sans-serif;
     color: #380b61;
-    margin-left: 7%
+    margin-left: 7%;
 
 }
 
@@ -17,14 +17,14 @@
 #subtitulo {
     font-family: sans-serif;
     color: #380b61;
-    margin-left: 10%
+    margin-left: 10%;
 }
 
 #check {
     display: inline-block;
 }
 
-/* Elementos de tag <fieldset>*/
+/* Elementos de tag <fieldset> */
 fieldset {
     border: 0;
 }
@@ -119,7 +119,7 @@ fieldset.grupo .campo {
 }
 
 /* Elementos de classe botão e de tag <select> */
-.botao, select{
+.botao, select {
     cursor: pointer;
 }
 
